@@ -88,6 +88,7 @@ AUTH_PASSWORD_VALIDATORS = [
 APPEND_SLASH = False
 
 CORS_ALLOWED_ORIGINS = env.list('CORS_ALLOWED_ORIGINS', default=['http://localhost:3000'])
+CSRF_TRUSTED_ORIGINS = env.list('CSRF_TRUSTED_ORIGINS', default=['http://localhost:3000'])
 
 LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
