@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip freeze *)",
+      "Bash(python -m pip list --disable-pip-version-check)",
+      "Bash(python -m pip list)"
+    ]
+  }
+}
